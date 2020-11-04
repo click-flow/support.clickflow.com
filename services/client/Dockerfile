@@ -16,4 +16,4 @@ ENV \
         PORT=$PORT
 EXPOSE $PORT
 
-CMD ["nuxt", "dev"]
+CMD ["npm", "run", "dev"]
