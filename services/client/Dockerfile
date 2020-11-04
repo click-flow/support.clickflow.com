@@ -6,9 +6,9 @@ WORKDIR /app
 
 ARG PORT=8080
 ENV \
-        HOST=0.0.0.0 \
-        NODE_ENV=production \
-        PORT=$PORT
+	NODE_ENV=production \
+	NUXT_HOST=0.0.0.0 \
+	NUXT_PORT=$PORT
 EXPOSE $PORT
 
 CMD ["npm", "run", "dev"]
