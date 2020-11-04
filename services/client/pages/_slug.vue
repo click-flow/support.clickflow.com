@@ -5,7 +5,23 @@ export default {
 	async asyncData({ $content, params }) {
 		const page = await $content(params.slug || HOMEPAGE).fetch()
 		return { page }
-	}
+	},
+	head() {
+		const {
+			description,
+			title,
+		} = this.page
+		return {
+			title,
+			meta: [
+				{
+					content: description,
+					hid: 'description',
+					name: 'description',
+				},
+			]
+		}
+	},
 }
 </script>
 

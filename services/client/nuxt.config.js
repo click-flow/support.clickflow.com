@@ -8,8 +8,8 @@ export default {
 
 	// Global page headers (https://go.nuxtjs.dev/config-head)
 	head: {
-		titleTemplate: '%s - app',
-		title: 'app',
+		titleTemplate: '%s | ClickFlow',
+		title: 'ClickFlow',
 		meta: [
 			{ charset: 'utf-8' },
 			{ hid: 'description', name: 'description', content: '' },

@@ -1,8 +1,7 @@
 ---
 description: TODO
+title: ClickFlow support documents
 ---
-
-# ClickFlow Support Documents
 
 This is the index page!
 
