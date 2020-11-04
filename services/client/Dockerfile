@@ -6,7 +6,7 @@ WORKDIR /app
 
 ARG PORT=8080
 ENV \
-        HOST=$HOST \
+        HOST=0.0.0.0 \
         NODE_ENV=production \
         PORT=$PORT
 EXPOSE $PORT
